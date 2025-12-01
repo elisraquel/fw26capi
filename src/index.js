@@ -9,7 +9,16 @@ const port = 3000;
 app.set('view engine','ejs')
 app.set('views','./views')
 
-require("../rotas/home")
+require("../db/dbconnect")(app)
+require("../rotas/home")(app)
+
+require("../rotas/getnoticias")(app)
+require("../rotas/getidnoticias")(app)
+require("../rotas/gettiponoticias")(app)
+
+require("../rotas/postnoticias")(app)
+require("../rotas/putnoticias")(app)
+require("../rotas/delnoticias")(app)
 
  // Define your routes
 
