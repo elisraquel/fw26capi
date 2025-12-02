@@ -1,11 +1,18 @@
 {
-  "name": "express",
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "5.1.0"
+  "name": "projfw6cinfo",
+  "version": "1.0.0",
+  "description": "codigos da diciplina de FW 2 para a turma de info C",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@types/express": "5.0.0",
-    "@types/node": "20.11.17"
+  "author": "Turma Info C",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "nodemon": "^3.1.10"
   }
 }

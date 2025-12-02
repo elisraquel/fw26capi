@@ -1,0 +1,14 @@
+// para iniciar o projeto
+npm init
+// para instalar o express
+npm i express
+// para instalar o nodemon
+npm i nodemon
+//para instalar o ejs
+npm i ejs
+//set projeto
+set port=3000
+//para instalar o consign
+npm i consign
+//Instalar o mongo db
+npm i mongodb
